@@ -20,4 +20,8 @@ Por fim, para nossa base de dados, retiramos de uma empresa fictícia da Microso
 Após recuperar o banco de dados para dentro do nosso SQL Server local, vamos começar o entendimento dos nossos dados.
 Para esse entendimento, exploramos o nosso banco de dados, e para resolver esta problemática, teremos que selecionar os dados muito bem.
 
-[Diagrama do banco de dados]
+
+
+[Diagrama do banco de dados](SQL/Diagrama.pdf)
+
+No diagrama, temos as tabelas utilizadas para a formação da nossa nova base de dados.
