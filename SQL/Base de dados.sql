@@ -1,3 +1,5 @@
+use ContosoRetailDW -- Utilizar o nosso database correto
+
 create or alter view vw_base_previsao -- Quando formos conectar no Jupyter Notebook no python, iremos puxar pela view
 as 
 select top (200000) -- Nossa tabela de vendas possui 3 milhões de linhas, vamos pegar só 200 mil neste projeto (haja processamento...)
