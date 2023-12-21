@@ -18,9 +18,11 @@ Por fim, para nossa base de dados, retiramos de uma empresa fictícia da Microso
 
 ## Entendimento dos dados e problema
 Após recuperar o banco de dados para dentro do nosso SQL Server local, vamos começar o entendimento dos nossos dados.
-Para esse entendimento, exploramos o nosso banco de dados, e para resolver esta problemática, teremos que selecionar os dados muito bem.
+Para esse entendimento, exploramos o nosso banco de dados, e para resolver esta problemática, teremos que selecionar os dados corretos.
 
+Então, utilizaremos uma consulta em T-SQL para pegarmos somente o necessário:
 
+[Consulta em T-SQL explicada]
 
 [Diagrama do banco de dados](SQL/Diagrama.pdf)
 
