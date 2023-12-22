@@ -22,8 +22,8 @@ Para esse entendimento, exploramos o nosso banco de dados, e para resolver esta 
 
 Então, utilizaremos T-SQL para pegarmos somente o necessário:
 
-[Código em T-SQL explicado](SQL/Base%20de%20dados.sql)
+[Código em T-SQL explicado](T-SQL/Base%20de%20dados.sql)
 
-[Diagrama do banco de dados](SQL/Diagrama.pdf)
+[Diagrama do banco de dados](T-SQL/Diagrama.pdf)
 
 No diagrama, temos as tabelas utilizadas para a formação da nossa nova base de dados e também é possível ver as colunas e dados que temos a disposição.
