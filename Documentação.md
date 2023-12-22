@@ -22,7 +22,7 @@ Para esse entendimento, exploramos o nosso banco de dados, e para resolver esta 
 
 Então, utilizaremos uma consulta em T-SQL para pegarmos somente o necessário:
 
-[Consulta em T-SQL explicada](https://github.com/Beh04/Python_SQL/blob/2006c065c0cd7913467560c8f638492a38ec5d15/SQL/Base%20de%20dados.sql)
+[Consulta em T-SQL explicada](SQL/Base%20de%20dados.sql)
 
 [Diagrama do banco de dados](SQL/Diagrama.pdf)
 
