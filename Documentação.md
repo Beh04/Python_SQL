@@ -1,7 +1,7 @@
 # Python com T-SQL!
 Projeto de ciência de dados para a modelagem de uma base de dados grande, retirada de um banco de dados relacional com consultas em T-SQL.
 
-## Problema de negócio a ser solucionado:
+## Problema de negócio a ser solucionado
 
 A empresa Contoso trata-se de uma gigante do varejo, e para otimizarmos suas operações de abastecimento e logística, vizando a redução de custos e a otimização da cadeia de suprimentos (Supply Chain), teremos que realizar um modelo preditivo da quantidade de vendas para o próximo ano (no caso 2010)
 
