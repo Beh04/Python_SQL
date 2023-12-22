@@ -24,6 +24,6 @@ Então, utilizaremos T-SQL para pegarmos somente o necessário ainda em nosso ba
 
 [Código em T-SQL explicado](T-SQL/Base%20de%20dados.sql)
 
-[Diagrama do banco de dados](T-SQL/Diagrama.pdf)
+[Arquivo do diagrama do banco de dados](T-SQL/Diagrama.pdf)
 
 No diagrama, temos as tabelas utilizadas para a formação da nossa nova base de dados e também é possível ver as colunas e dados que temos a disposição.
