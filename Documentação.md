@@ -20,7 +20,7 @@ Por fim, para nossa base de dados, retiramos de uma empresa fictícia da Microso
 Após recuperar o banco de dados para dentro do nosso SQL Server local, vamos começar o entendimento dos nossos dados.
 Para esse entendimento, exploramos o nosso banco de dados, e para resolver esta problemática, teremos que selecionar os dados corretos.
 
-Então, utilizaremos T-SQL para pegarmos somente o necessário:
+Então, utilizaremos T-SQL para pegarmos somente o necessário ainda em nosso banco de dados:
 
 [Código em T-SQL explicado](T-SQL/Base%20de%20dados.sql)
 
