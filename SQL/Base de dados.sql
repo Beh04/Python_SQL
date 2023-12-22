@@ -1,4 +1,6 @@
-use ContosoRetailDW -- Utilizar o nosso database correto
+use ContosoRetailDW -- Utilizar o database correto
+
+go
 
 create or alter view vw_base_previsao -- Quando formos conectar no Jupyter Notebook no python, iremos puxar pela view
 as 
