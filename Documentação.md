@@ -3,7 +3,7 @@ Projeto de ciência de dados para a modelagem de uma base de dados grande, retir
 
 ## Problema de negócio a ser solucionado
 
-A empresa Contoso trata-se de uma gigante do varejo, e para otimizarmos suas operações de abastecimento e logística, vizando a redução de custos e a otimização da cadeia de suprimentos (Supply Chain), teremos que realizar um modelo preditivo da quantidade de vendas para o próximo ano (no caso 2010)
+A empresa Contoso trata-se de uma gigante do varejo, e para otimizarmos suas operações de abastecimento e logística, vizando a redução de custos e a otimização da cadeia de suprimentos (Supply Chain), teremos que realizar um modelo preditivo da quantidade de vendas para o próximo ano (no caso 2010).
 
 ## Requesitos
 Para esse projeto, utilizaremos o SQL Server Developer, uma versão totalmente gratuita para praticar:
@@ -20,10 +20,10 @@ Por fim, para nossa base de dados, retiramos de uma empresa fictícia da Microso
 Após recuperar o banco de dados para dentro do nosso SQL Server local, vamos começar o entendimento dos nossos dados.
 Para esse entendimento, exploramos o nosso banco de dados, e para resolver esta problemática, teremos que selecionar os dados corretos.
 
-Então, utilizaremos uma consulta em T-SQL para pegarmos somente o necessário:
+Então, utilizaremos T-SQL para pegarmos somente o necessário:
 
-[Consulta em T-SQL explicada](SQL/Base%20de%20dados.sql)
+[Código em T-SQL explicado](SQL/Base%20de%20dados.sql)
 
 [Diagrama do banco de dados](SQL/Diagrama.pdf)
 
-No diagrama, temos as tabelas utilizadas para a formação da nossa nova base de dados.
+No diagrama, temos as tabelas utilizadas para a formação da nossa nova base de dados e também é possível ver as colunas e dados que temos a disposição.
