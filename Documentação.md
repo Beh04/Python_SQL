@@ -32,19 +32,17 @@ No diagrama, temos as tabelas utilizadas para a formação da nossa nova base de
 
 ### Estrutura dos Dados
 
-Os dados são estruturados da seguinte forma:
+- Os dados da base estão estruturados da seguinte forma:
 
-- **agendamentos**: Uma lista de objetos, onde cada objeto representa um agendamento único e contém:
-  - **pet**: Informações sobre o pet, incluindo:
-    - `nome`: Nome do pet.
-    - `informacoes`: Detalhes do pet, como espécie, raça, cor e gênero.
-    - `peso`: Peso do pet em Kg.
-  - **dono**: Informações sobre o dono do pet, incluindo:
-    - `nome`: Nome do dono.
-    - `endereco`: Endereço do dono.
-    - `email`: E-mail do dono.
-    - `telefone`: Telefone do dono.
-  - **agendamento**: Detalhes do agendamento, incluindo:
-    - `hora`: Hora do agendamento.
-    - `data`: Data do agendamento.
-    - `servico`: Tipo de serviço agendado (banho, tosa, banho&tosa)
+    - `ID da Venda`: número da venda basicamente.
+    - `Data da Venda`: data que foi realizada a venda (a base contempla os anos de 2007,2008 e 2009).
+    - `Ano`: Ano da venda.
+    - `Mês`: Mês da venda.
+    - `ID do Produto`: Número de identificação do produto.
+    - `Nome do Produto`: Bem sugestivo haha.
+    - `Nome do Canal`: Nome do canal de vendas (meio).
+    - `Nome da Categoria`: Categoria do produto.
+    - `Nome da Subcategoria`: Subcategoria do produto.
+    - `Preço Unitário`: Preço da unidade do produto.
+    - `Qtd. Vendida`: Valor a ser previsto na modelagem, representa o número de unidades vendidas naquela venda.
+    - `Faturamento`: Nesta coluna, poderíamos ter utilizado a coluna de valor vendido (SalesAmount) do própio banco de dados, mas quis simplificar o problema e utilizar uma coluna calculada para a prática do SQL.
