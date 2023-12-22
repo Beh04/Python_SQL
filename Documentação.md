@@ -28,6 +28,23 @@ Então, utilizaremos T-SQL para pegarmos somente o necessário ainda em nosso ba
 
 No diagrama, temos as tabelas utilizadas para a formação da nossa nova base de dados e também é possível ver as colunas e dados que temos a disposição:
 
-
-
 ![arq](Img/tabelas_utilizadas.PNG)
+
+### Estrutura dos Dados
+
+Os dados são estruturados da seguinte forma:
+
+- **agendamentos**: Uma lista de objetos, onde cada objeto representa um agendamento único e contém:
+  - **pet**: Informações sobre o pet, incluindo:
+    - `nome`: Nome do pet.
+    - `informacoes`: Detalhes do pet, como espécie, raça, cor e gênero.
+    - `peso`: Peso do pet em Kg.
+  - **dono**: Informações sobre o dono do pet, incluindo:
+    - `nome`: Nome do dono.
+    - `endereco`: Endereço do dono.
+    - `email`: E-mail do dono.
+    - `telefone`: Telefone do dono.
+  - **agendamento**: Detalhes do agendamento, incluindo:
+    - `hora`: Hora do agendamento.
+    - `data`: Data do agendamento.
+    - `servico`: Tipo de serviço agendado (banho, tosa, banho&tosa)
