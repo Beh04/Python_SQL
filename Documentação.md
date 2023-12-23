@@ -43,7 +43,6 @@ No diagrama, temos as tabelas utilizadas para a formação da nossa nova base de
     - `Número do Mês`: Número do mês no ano.
     - `ID do Produto`: Número de identificação do produto.
     - `Nome do Produto`: Bem sugestivo haha.
-    - `Nome do Canal`: Nome do canal de vendas (meio).
     - `Nome da Categoria`: Categoria do produto.
     - `Nome da Subcategoria`: Subcategoria do produto.
     - `Preço Unitário`: Preço da unidade do produto.
