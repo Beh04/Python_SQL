@@ -5,7 +5,7 @@ Projeto de ciência de dados para a modelagem de uma base de dados grande, retir
 
 A empresa Contoso trata-se de uma gigante do varejo, e para otimizarmos suas operações de estatégia de precificação, vizando a redução de custos e a rentabilidade, teremos que realizar um modelo que prevê os preços dos produtos.
 
-Para essa solução, iremos utilizar um algoritmo de  machine learning de regressão linear múltipla para prever os preços de cada produto de acordo com suas vendas dentro de um ano.
+Para essa solução, iremos utilizar um algoritmo de  machine learning de regressão linear múltipla para prever os preços de cada produto.
 
 ## Requesitos
 Para esse projeto, utilizaremos o SQL Server Developer, uma versão totalmente gratuita para praticar:
@@ -46,5 +46,6 @@ No diagrama, temos as tabelas utilizadas para a formação da nossa nova base de
     - `Nome da Categoria`: Categoria do produto.
     - `Nome da Subcategoria`: Subcategoria do produto.
     - `Preço Unitário`: Preço da unidade do produto.
-    - `Qtd. Vendida`: Valor a ser previsto na modelagem, representa o número de unidades vendidas naquela venda.
+    - `Custo Unitário`: Custo da unidade do produto.
+    - `Qtd. Vendida`: Representa o número de unidades vendidas naquela venda.
     - `Faturamento`: Nesta coluna, poderíamos ter utilizado a coluna de valor vendido (SalesAmount) do própio banco de dados, mas quis simplificar o problema e utilizar uma coluna calculada para a prática do SQL.
