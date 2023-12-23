@@ -3,9 +3,9 @@ Projeto de ciência de dados para a modelagem de uma base de dados grande, retir
 
 ## Problema de negócio a ser solucionado
 
-A empresa Contoso trata-se de uma gigante do varejo, e para otimizarmos suas operações de abastecimento e logística, vizando a redução de custos e a otimização da cadeia de suprimentos (Supply Chain), teremos que realizar um modelo que prevê a quantidade de vendas por cada produto vendido dentro de um mês.
+A empresa Contoso trata-se de uma gigante do varejo, e para otimizarmos suas operações de abastecimento e logística, vizando a redução de custos e a otimização da cadeia de suprimentos (Supply Chain), teremos que realizar um modelo que prevê a quantidade de vendas por cada produto vendido dentro dos meses.
 
-Para essa solução, iremos utilizar um algoritmo de  machine learning de regressão linear para prever as vendas de cada produto por mês e ano.
+Para essa solução, iremos utilizar um algoritmo de  machine learning de séries temporais para prever as vendas de cada produto por mês para o próximo ano na nossa base (no caso 2010).
 
 ## Requesitos
 Para esse projeto, utilizaremos o SQL Server Developer, uma versão totalmente gratuita para praticar:
