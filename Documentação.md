@@ -1,3 +1,5 @@
+![arq](Img/machine_learning.png)
+
 # Machine Learning com Python e T-SQL!
 Projeto de ciência de dados para a modelagem de uma base de dados grande, retirada de um banco de dados relacional com consultas em T-SQL.
 
@@ -30,7 +32,7 @@ Então, utilizaremos T-SQL para pegarmos somente o necessário ainda em nosso ba
 
 No diagrama, temos as tabelas utilizadas para a formação da nossa nova base de dados e também é possível ver as colunas e dados que temos a disposição:
 
-![arq](Img/tabelas_utilizadas.PNG)
+![arq](Img/tabelas_utilizadas.png)
 
 ### Estrutura dos Dados
 
