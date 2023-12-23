@@ -9,6 +9,7 @@ select top (200000) -- Nossa tabela de vendas possui 3 milhões de linhas, vamos
 	,format(DT.Datekey,'dd/MM/yyyy') as 'Data da Venda'
 	,DT.CalendarYear as 'Ano'
 	,DT.CalendarMonthLabel as 'Mês'
+	,month(DT.FullDateLabel) as 'Número do Mês'
 	,DP.ProductKey as 'ID do Produto'
 	,DP.ProductName as 'Nome do Produto'
 	,DC.ChannelName as 'Nome do Canal'
