@@ -38,6 +38,7 @@ No diagrama, temos as tabelas utilizadas para a formação da nossa nova base de
     - `Data da Venda`: data que foi realizada a venda (a base contempla os anos de 2007,2008 e 2009).
     - `Ano`: Ano da venda.
     - `Mês`: Mês da venda.
+    - `Número do Mês`: Número do mês no ano.
     - `ID do Produto`: Número de identificação do produto.
     - `Nome do Produto`: Bem sugestivo haha.
     - `Nome do Canal`: Nome do canal de vendas (meio).
