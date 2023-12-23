@@ -15,6 +15,7 @@ select top (200000) -- Nossa tabela de vendas possui 3 milhões de linhas, vamos
 	,DPC.ProductCategoryName as 'Nome da Categoria'
 	,DPS.ProductSubcategoryName as 'Nome da Subcategoria'
 	,FS.UnitPrice as 'Preço Unitário'
+	,FS.UnitCost as 'Custo Unitário'
 	,FS.SalesQuantity as 'Qtd. Vendida'
 	,FS.UnitPrice * FS.SalesQuantity as 'Faturamento'
 /*Nesta parte vamos realizar nossos joins com nossas tabelas dimensões para trazermos informações importante para nossa nova base
