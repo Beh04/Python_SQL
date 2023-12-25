@@ -47,6 +47,10 @@ No diagrama, temos as tabelas utilizadas para a formação da nossa nova base de
     - `Nome do Produto`: Bem sugestivo haha.
     - `Nome da Categoria`: Categoria do produto.
     - `Nome da Subcategoria`: Subcategoria do produto.
+    - `Marca`: Marca do produto.
+    - `Tamanho`: Tamanho do produto.
+    - `Peso`: Peso do produto.
+    - `Classe`: Classificação do produto.
     - `Preço Unitário`: Preço da unidade do produto.
     - `Custo Unitário`: Custo da unidade do produto.
     - `Qtd. Vendida`: Representa o número de unidades vendidas naquela venda.
