@@ -59,5 +59,5 @@ No diagrama, temos as tabelas utilizadas para a formação da nossa nova base de
 ### Solução
 [Segue o script em Jupyter Notebook com toda a análise e resolução do problema](Python/Análise%20e%20Modelagem.ipynb)
 
-### Visualização dos Resultados e Avaliação do Modelo
-[Link para visualizar os resultados do modelo](https://app.powerbi.com/links/I5VozWFm8Z?ctid=5c9e059c-3929-4dcd-a2da-b11cd4e8b1d4&pbi_source=linkShare)
+### Visualização dos Resultados e Avaliação do Modelo!!
+[Link para visualizar os resultados do modelo](https://app.powerbi.com/links/I5VozWFm8Z?ctid=5c9e059c-3929-4dcd-a2da-b11cd4e8b1d4&pbi_source=linkShare{:target="_blank"})
