@@ -29,7 +29,9 @@ from FactSales as FS
 	inner join DimProductSubcategory as DPS on DP.ProductSubcategoryKey = DPS.ProductSubcategoryKey -- Tabela de Subcategoria dos produtos
 	inner join DimProductCategory as DPC on DPS.ProductCategoryKey = DPC.ProductCategoryKey -- Tabela de Categoria dos produtos
 	inner join DimDate as DT on FS.DateKey = DT.Datekey -- Tabela de Datas
+where FS.UnitPrice <=300 and Weight is not null and Size is not null
 order by [ID da Venda]
+
 
 go
 
