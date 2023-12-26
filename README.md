@@ -55,8 +55,8 @@ No diagrama, temos as tabelas utilizadas para a formação da nossa nova base de
     - `Custo Unitário`: Custo da unidade do produto.
     - `Qtd. Vendida`: Representa o número de unidades vendidas naquela venda.
     - `Faturamento`: Nesta coluna, poderíamos ter utilizado a coluna de valor vendido (SalesAmount) do própio banco de dados, mas quis simplificar o problema e utilizar uma coluna calculada para a prática do SQL.
- 
-      ### Solução
+
+### Solução
 [Segue o script em Jupyter Notebook com toda a análise e resolução do problema](Python/Análise%20e%20Modelagem.ipynb)
 
 ### Visualização dos Resultados e Avaliação do Modelo
