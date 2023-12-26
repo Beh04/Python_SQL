@@ -61,3 +61,4 @@ No diagrama, temos as tabelas utilizadas para a formação da nossa nova base de
 
 ### Visualização dos Resultados e Avaliação do Modelo!!
 [Link para visualizar os resultados do modelo](https://app.powerbi.com/links/I5VozWFm8Z?ctid=5c9e059c-3929-4dcd-a2da-b11cd4e8b1d4&pbi_source=linkShare{:target="_blank"})
+
