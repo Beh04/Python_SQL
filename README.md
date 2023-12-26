@@ -5,7 +5,7 @@ Projeto de ciência de dados para a modelagem de uma base de dados grande, retir
 
 ## Problema de negócio a ser solucionado
 
-A empresa Contoso trata-se de uma gigante do varejo, e para otimizarmos sua estatégia de precificação, vizando a redução de custos e a rentabilidade, teremos que realizar um modelo que prevê os preços dos nossos produtos que custam $ 300,00 ou menos.
+A empresa Contoso trata-se de uma gigante do varejo, e para otimizarmos sua estatégia de precificação, vizando a redução de custos e a rentabilidade, teremos que realizar um modelo que prevê os preços dos nossos produtos que custam $ 300,00 ou menos supondo que podemos utilizar a informação de custo dos produtos.
 
 Para essa solução, iremos utilizar um algoritmo de  machine learning de regressão linear múltipla para prever os preços de cada produto.
 
