@@ -1,11 +1,13 @@
+![arq](Img/machine_learning.png)
+
 # Machine Learning com Python e T-SQL!
 Projeto de ciência de dados para a modelagem de uma base de dados grande, retirada de um banco de dados relacional com consultas em T-SQL.
 
 ## Problema de negócio a ser solucionado
 
-A empresa Contoso trata-se de uma gigante do varejo, e para otimizarmos suas operações de abastecimento e logística, vizando a redução de custos e a otimização da cadeia de suprimentos (Supply Chain), teremos que realizar um modelo que prevê a quantidade de vendas por cada produto vendido dentro de um mês.
+A empresa Contoso trata-se de uma gigante do varejo, e para otimizarmos sua estatégia de precificação, vizando a redução de custos e a rentabilidade, teremos que realizar um modelo que prevê os preços dos nossos produtos que custam $ 300,00 ou menos supondo que podemos utilizar a informação de custo dos produtos.
 
-Para essa solução, iremos utilizar um algoritmo de  machine learning de regressão linear para prever as vendas de cada produto por mês e ano.
+Para essa solução, iremos utilizar um algoritmo de  machine learning de regressão linear múltipla para prever os preços de cada produto.
 
 ## Requesitos
 Para esse projeto, utilizaremos o SQL Server Developer, uma versão totalmente gratuita para praticar:
@@ -30,7 +32,7 @@ Então, utilizaremos T-SQL para pegarmos somente o necessário ainda em nosso ba
 
 No diagrama, temos as tabelas utilizadas para a formação da nossa nova base de dados e também é possível ver as colunas e dados que temos a disposição:
 
-![arq](Img/tabelas_utilizadas.PNG)
+![arq](Img/tabelas_utilizadas.png)
 
 ### Estrutura dos Dados
 
@@ -43,9 +45,21 @@ No diagrama, temos as tabelas utilizadas para a formação da nossa nova base de
     - `Número do Mês`: Número do mês no ano.
     - `ID do Produto`: Número de identificação do produto.
     - `Nome do Produto`: Bem sugestivo haha.
-    - `Nome do Canal`: Nome do canal de vendas (meio).
     - `Nome da Categoria`: Categoria do produto.
     - `Nome da Subcategoria`: Subcategoria do produto.
+    - `Marca`: Marca do produto.
+    - `Tamanho`: Tamanho do produto.
+    - `Peso`: Peso do produto.
+    - `Classe`: Classificação do produto.
     - `Preço Unitário`: Preço da unidade do produto.
-    - `Qtd. Vendida`: Valor a ser previsto na modelagem, representa o número de unidades vendidas naquela venda.
-    - `Faturamento`: Nesta coluna, poderíamos ter utilizado a coluna de valor vendido (SalesAmount) do própio banco de dados, mas quis simplificar o problema e utilizar uma coluna calculada para a prática do T-SQL.
+    - `Custo Unitário`: Custo da unidade do produto.
+    - `Qtd. Vendida`: Representa o número de unidades vendidas naquela venda.
+    - `Faturamento`: Nesta coluna, poderíamos ter utilizado a coluna de valor vendido (SalesAmount) do própio banco de dados, mas quis simplificar o problema e utilizar uma coluna calculada para a prática do SQL.
+
+### Solução
+[Segue o script em Jupyter Notebook com toda a análise e resolução do problema](Python/Análise%20e%20Modelagem.ipynb)
+
+### Visualização dos Resultados e Avaliação do Modelo!!
+[Link para visualizar os resultados do modelo](https://app.powerbi.com/view?r=eyJrIjoiN2IxOTQ2ZjgtNzEyYy00N2E0LWJlYTAtNjkxNWI3ZTA4NzQ5IiwidCI6ImQ5Y2ZiNGIwLTk2YjItNDVhMi1iNjQ4LTU1YzU2NTA4ZmYwZiJ9)
+
+
